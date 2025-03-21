@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.1.1">
+  <diagram name="Page-1" id="BeJkZ7VZRlhsa8AjXt5a">
+    <mxGraphModel dx="951" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-1" value="Root Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="AZDr1M3aCmH8I8gKaZ9j-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="150" as="sourcePoint" />
+            <mxPoint x="380" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AZDr1M3aCmH8I8gKaZ9j-6" target="AZDr1M3aCmH8I8gKaZ9j-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="150" as="sourcePoint" />
+            <mxPoint x="400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-4" value="Leaf&lt;div&gt;Node&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-5" value="Leaf&lt;div&gt;Node&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="404" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-6" value="Decision Tree" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AZDr1M3aCmH8I8gKaZ9j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="260" as="sourcePoint" />
+            <mxPoint x="600" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-8" value="Parent&lt;div&gt;Node&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="189" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AZDr1M3aCmH8I8gKaZ9j-5" target="AZDr1M3aCmH8I8gKaZ9j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="sourcePoint" />
+            <mxPoint x="470" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-10" value="Leaf&lt;div&gt;Node&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="517" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AZDr1M3aCmH8I8gKaZ9j-10" target="AZDr1M3aCmH8I8gKaZ9j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="270" as="sourcePoint" />
+            <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="AZDr1M3aCmH8I8gKaZ9j-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="281" as="sourcePoint" />
+            <mxPoint x="640" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-16" value="Child&lt;div&gt;Node&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="260" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AZDr1M3aCmH8I8gKaZ9j-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="120" as="sourcePoint" />
+            <mxPoint x="340" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-20" value="Splitting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="297" y="221" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AZDr1M3aCmH8I8gKaZ9j-21" value="Sub Tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="314" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
